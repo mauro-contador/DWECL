@@ -5,7 +5,9 @@
     let num2 = 10;
     if(num1>num2){
         console.log(num1 +"es mayor que "+ num2);
+    }else if (num1==num2){
+        console.log("Los numeros son iguales");
     }else{
-        console.log("El segundo numero es mayor que el primero");
+        console.log(num2+"es mayor que "+num1);
     }
 }
