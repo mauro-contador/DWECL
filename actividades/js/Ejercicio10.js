@@ -6,10 +6,10 @@
     let num;
     do {
         num = Number(prompt("Introduzca un numero: "));
-    } while (isNaN(num1));
+    } while (isNaN(num));
 
-    esPrimo(num1);
-
+    let resultado = esPrimo(num);
+    console.log(resultado);
     function esPrimo(num) {
         let esPrimo = true;
         for (let i = 2; i < num; i++) {

@@ -15,31 +15,31 @@
         console.log("El bloque finally se ejecutará siempre al final de unbloque try-catch");//se ejecuta siempre
     }
 
-    try{
+    try {
         let a = 5, b = 0;
         let c = a / b;
         console.log("El resultado es " + c)
-        const v = [1,2,3];
+        const v = [1, 2, 3];
         v[0] = 4;
-        console.log("Mi vector es "+ v)
+        console.log("Mi vector es " + v)
         v[2] = {
             nombre: "yo",
-            edad:29
+            edad: 29
         }
-        console.log("Mi vector es "+ v)
-        
-    }catch (e){
+        console.log("Mi vector es " + v)
+
+    } catch (e) {
         console.error(e);
     }
-    try{
-        let numero = prompt("Introduce un numero","hola");
-        if(isNaN(numero)){
-            throw new Error ("no es un numero");
+    try {
+        let numero = prompt("Introduce un numero", "hola");
+        if (isNaN(numero)) {
+            throw new Error("no es un numero");
         }
         let nuevoNumero = parseInt(numero);
         nuevoNumero++;
         console.log(nuevoNumero);
-    } catch(error){
+    } catch (error) {
         console.error(error);
     }
 

@@ -7,7 +7,7 @@
 
     console.log("Tu hora es " + horas + ":" + minutos + ":" + segundos);
     segundos++;
-    if(segundos >= 60) {
+    if (segundos >= 60) {
         segundos = 0;
         minutos++;
     }
