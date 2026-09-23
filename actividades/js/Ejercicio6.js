@@ -1,5 +1,5 @@
-{
 "use strict"
+{
     inicio = Number(prompt("Introduzca el inicio: "));
     fin = Number(prompt("Introduzca el final: "));
     console.log("Los numeros que estan dentro de "+inicio+ " y "+ fin +" son :");

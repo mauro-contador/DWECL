@@ -1,3 +1,4 @@
+"use strict"
 {
 //5. Mostrar todos los números que hay entre dos números introducidos por el usuario.
 "use strict"

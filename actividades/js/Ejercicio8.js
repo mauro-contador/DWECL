@@ -1,5 +1,5 @@
+"use strict"
 {
-    "use strict"
 // 8. Mostrar la tabla de multiplicar de un número introducido por pantalla.
     num = Number(prompt("Introduzca un numero: "));
     console.log("La tabla de multiplicar del "+ num + "es :")
